@@ -3,6 +3,7 @@ title: Being Better In 3 Easy Steps
 description: How to improve as a designer by changing your perspectives.
 date: 2011-02-05
 tags:
+  - another-tag
 layout: layouts/post.njk
 ---
 
