@@ -1,16 +1,15 @@
 {
-  "title": "Your Blog Name",
+  "title": "Dan Higbie | Photography and Thoughts from a Designer",
   "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I have thoughts about design, sometimes I write about them.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I have thoughts about design, sometimes I write about them.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://myurl.com/feed/feed.xml",
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Dan Higbie"
   }
 }
