@@ -10,7 +10,7 @@ templateClass: tmpl-post
       <h2 class="f6 fw6 black">{{ subtitle }}</h2>
     </div>
   </header>
-
-{{ content | safe }}
-
-<p><a href="{{ '/' | url }}">← Home</a></p>
+  <div class="ph3 ph4-m ph5-l">
+    {{ content | safe }}
+  </div>
+</article>
