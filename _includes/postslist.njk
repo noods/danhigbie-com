@@ -1,7 +1,7 @@
 {% for post in postslist | reverse %}
   <article class="cf ph3 ph5-ns pv5">
     <header class="fn fl-ns w-50-ns pr4-ns">
-      <a href="{{ post.url | url }}" class="postlist-link">
+      <a class="black" href="{{ post.url | url }}" class="postlist-link">
         <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
           {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
         </h1>
