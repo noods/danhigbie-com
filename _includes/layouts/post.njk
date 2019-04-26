@@ -2,7 +2,14 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<header class="vh-100 bg-light-pink dt w-100">
+    <div
+      style="background:url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right;background-size: cover;"
+      class="dtc v-mid cover ph3 ph4-m ph5-l">
+      <h1 class="f2 f-subheadline-l measure lh-title fw9">{{ title }}</h1>
+      <h2 class="f6 fw6 black">{{ subtitle }}</h2>
+    </div>
+  </header>
 
 {{ content | safe }}
 
