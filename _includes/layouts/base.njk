@@ -10,14 +10,13 @@
   </head>
   <body class="sans-serif">
     <header>
-      <h1 class="f1"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-      <ul class="f5">
+      <nav class="pa3 pa4-ns">
+        <a class="link dim black b f6 f5-ns dib mr3" href="{{ '/' | url }}" title="Home">{{ metadata.title }}</a>
         {%- for nav in collections.nav | reverse -%}
-        <li class=""><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+          <a class="link dim gray    f6 f5-ns dib mr3" href="{{ nav.url | url }}" title="Home">{{ nav.data.navtitle }}</a>
         {%- endfor -%}
-      </ul>
+      </nav>
     </header>
-
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
