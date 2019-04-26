@@ -2,15 +2,12 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<header class="vh-100 bg-light-pink dt w-100">
-    <div
-      style="background:url(http://mrmrs.github.io/photos/display.jpg) no-repeat center right;background-size: cover;"
-      class="dtc v-mid cover ph3 ph4-m ph5-l">
-      <h1 class="f2 f-subheadline-l measure lh-title fw9">{{ title }}</h1>
-      <h2 class="f6 fw6 black">{{ subtitle }}</h2>
-    </div>
+<article class="pb5">
+  <header class="vh-100 bg-light-pink dt w-100">
+    <h1 class="f2 f-subheadline-l measure lh-title fw9">{{ title }}</h1>
+    <h2 class="f6 fw6 black">{{ subtitle }}</h2>
   </header>
   <div class="ph3 ph4-m ph5-l">
     {{ content | safe }}
-  </div>
+</div>
 </article>
